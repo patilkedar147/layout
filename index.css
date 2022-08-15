@@ -1,0 +1,119 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 80vw;
+    /* background-color: rgb(130, 123, 123); */
+    margin: 0px auto;
+}
+
+.header {
+    background-color: rgb(152, 151, 149);
+    color: rgba(74, 8, 8, 1);
+    padding: 10px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: rgb(54, 53, 57);
+    margin-top: 6px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 12px;
+
+}
+.navbar ul a:hover {
+    background-color: rgb(54, 53, 57);
+    color: rgb(243, 186, 139);
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 9px;
+    margin: 3px 8px;
+
+}
+
+.sec {
+    /* background-color: aqua; */
+    float: left;
+    min-height: 75vh;
+    width: 60%;
+    padding: 19px 20px;
+
+}
+
+p {
+    margin-top: 6px;
+}
+
+.sidebar {
+    background-color: rgb(152, 151, 149);
+    float: right;
+    min-height: 75vh;
+    width: 40%;
+
+
+}
+
+.sidebar li {
+    list-style: none;
+    height: 10vh;
+    width: 50%;
+    border: 1px solid rgb(14, 10, 10);
+    border-radius: 5px;
+    margin: 42px auto;
+    background-color: rgb(218, 213, 229);
+    cursor: pointer;
+}
+.sidebar li:hover {
+  
+    background-color: rgb(254, 252, 252);
+    color: rgb(7, 5, 5);
+}
+
+#ulc {
+   display: flex;
+   justify-content: center;
+}
+.sidebar{
+    padding: 10px;
+}
+.base {
+    clear: both;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(54, 53, 57);
+    padding: 3px;
+  
+
+}
+
+.base a {
+    text-decoration: none;
+    color: rgb(247, 246, 252);
+    padding: 6px;
+    margin: 5px;
+
+
+}
+
+.base li {
+    list-style: none;
+}
